@@ -1,0 +1,19 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items:  center;
+    flex-wrap: wrap;
+    gap: 30px;
+    border: 1px solid;
+    padding: 30px;
+    font-weight: bold;
+    font-size: x-large;
+    width: 100%;
+
+    select{
+        display: flex;
+        gap: 90px;
+        font-size: large;
+        
+    }
+}

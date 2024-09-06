@@ -1,0 +1,63 @@
+ .stories{
+    display: grid;
+   grid-template-columns: repeat(4,330px);
+    padding: 30px;
+    margin: 30px;
+    background-color: black;
+    color: white;
+    width: 100%;
+    gap: 30px;
+    font-size: larger;
+    font-style: italic;
+    align-items: center;
+    
+    img:hover{
+      scale: 1.1;
+    transition: all .1s;  
+     }
+     
+    
+}
+  @mixin demo{
+        background-color: white;
+        color: #000000;
+        box-shadow: 30px solid black;
+          height: 300px;
+           width: 100%;
+         //  padding: 30px;
+         //  gap: 30px;
+          align-items: center;
+          justify-content: space-around;
+          
+        img:hover{
+           scale: 1.1;
+         transition: all .1s;  
+          }
+          
+        
+    }
+     .st1 {
+        @include  demo()
+     }
+     .st2 {
+        @include  demo()
+     }
+     .st3 {
+        @include  demo()
+     }
+     .st4 {
+        @include  demo()
+     }
+     @media  screen and ( max-width: 450px) {
+      .stories{
+        grid-template-columns: 300px;
+        grid-template-rows: repeat(4,auto);
+      }
+      
+    }
+   @media  screen and (min-width:450px) and ( max-width:800px) {
+      .stories{
+        grid-template-columns: repeat(2,auto);
+        grid-template-rows: repeat(2,auto);
+      }
+    }

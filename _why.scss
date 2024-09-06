@@ -1,0 +1,22 @@
+.why{
+    background-color: rgb(218, 235, 241);
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 30px;
+    font-size: large;
+}
+@media  screen and ( max-width: 450px) {
+    .why{
+      grid-template-columns: 300px;
+      grid-template-rows: repeat(3,auto);
+    }
+    
+  }
+ @media  screen and (min-width:450px) and ( max-width:800px) {
+    .why{
+      grid-template-columns: repeat(1,auto);
+      grid-template-rows: repeat(1,auto);
+    }
+  }

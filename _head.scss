@@ -1,0 +1,23 @@
+.head{
+    display: grid;
+    grid-template-columns: 640px 580px;
+    justify-content: space-around;
+    padding: 30px;
+    font-size:x-large;
+    img{
+      border-radius: 100px;
+    }
+}
+@media  screen and ( max-width: 450px) {
+  .head{
+    grid-template-columns: 300px;
+    grid-template-rows: repeat(2,auto);
+  }
+  
+}
+@media  screen and (min-width:450px) and ( max-width:800px) {
+  .head{
+    grid-template-columns: repeat(1,auto);
+    grid-template-rows: repeat(1,auto);
+  }
+}

@@ -1,0 +1,38 @@
+.details{
+    position: sticky;
+     display: flex;
+      align-items: center;
+      gap: 30px;
+      border: 1px solid;
+      padding: 20px;
+      justify-content: space-between;
+      margin: auto;
+      
+     img:hover{
+      scale: 1.1;
+    transition: all .1s;  
+     }
+     
+      ul{
+         list-style: none;
+         font-size: large;
+      }
+      select{
+       font-size: large;
+       gap: 50px;
+ 
+      }
+      option{
+       font-size: larger;
+      }
+ 
+      button{
+       background-color: blue;
+       color: white;
+       font-size: x-large;
+       gap: 20px;
+       border-radius: 50px;
+ 
+      }
+ }
+ 

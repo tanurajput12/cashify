@@ -1,0 +1,26 @@
+.brands{
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px 200px 200px 200px 200px ;
+     padding: 50ox;
+     margin: 40px;
+    
+    
+     img:hover{
+      scale: 1.1;
+    transition: all .1s;  
+     }
+     
+}
+@media  screen and ( max-width: 450px) {
+    .brands{
+      grid-template-columns: 300px;
+      grid-template-rows: repeat(8,auto);
+    }
+    
+  }
+ @media  screen and (min-width:450px) and ( max-width:800px) {
+    .brands{
+      grid-template-columns: repeat(2,auto);
+      grid-template-rows: repeat(2,auto);
+    }
+  }

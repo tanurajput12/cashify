@@ -1,0 +1,525 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  border: 1px solid;
+  padding: 30px;
+  font-weight: bold;
+  font-size: x-large;
+  width: 100%;
+}
+.navbar select {
+  display: flex;
+  gap: 90px;
+  font-size: large;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  border: 1px solid;
+  padding: 20px;
+  justify-content: space-between;
+  margin: auto;
+  list-style: none;
+}
+.nav ul {
+  font-size: large;
+}
+.nav select {
+  font-size: large;
+  gap: 50px;
+}
+.nav option {
+  font-size: larger;
+}
+.nav button {
+  background-color: blue;
+  color: white;
+  font-size: x-large;
+  gap: 20px;
+  border-radius: 50px;
+}
+
+.head {
+  display: grid;
+  grid-template-columns: 640px 580px;
+  justify-content: space-around;
+  padding: 30px;
+  font-size: x-large;
+}
+.head img {
+  border-radius: 100px;
+}
+
+@media screen and (max-width: 450px) {
+  .head {
+    grid-template-columns: 300px;
+    grid-template-rows: repeat(2, auto);
+  }
+}
+@media screen and (min-width: 450px) and (max-width: 800px) {
+  .head {
+    grid-template-columns: repeat(1, auto);
+    grid-template-rows: repeat(1, auto);
+  }
+}
+.card {
+  display: grid;
+  grid-template-columns: 500px 500px 500px;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 30px;
+  font-size: large;
+}
+
+@media screen and (max-width: 450px) {
+  .card {
+    grid-template-columns: 300px;
+    grid-template-rows: repeat(3, auto);
+  }
+}
+@media screen and (min-width: 450px) and (max-width: 800px) {
+  .card {
+    grid-template-columns: repeat(1, auto);
+    grid-template-rows: repeat(1, auto);
+  }
+}
+.deal {
+  display: grid;
+  grid-template-columns: 500px 500px;
+  padding: 30px;
+  margin: 20px;
+}
+.deal img:hover {
+  scale: 1.1;
+  transition: all 0.1s;
+}
+
+@media screen and (max-width: 450px) {
+  .deal {
+    grid-template-columns: 300px;
+    grid-template-rows: repeat(2, auto);
+  }
+}
+@media screen and (min-width: 450px) and (max-width: 800px) {
+  .deal {
+    grid-template-columns: repeat(1, auto);
+    grid-template-rows: repeat(1, auto);
+  }
+}
+.why {
+  background-color: rgb(218, 235, 241);
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 30px;
+  font-size: large;
+}
+
+@media screen and (max-width: 450px) {
+  .why {
+    grid-template-columns: 300px;
+    grid-template-rows: repeat(3, auto);
+  }
+}
+@media screen and (min-width: 450px) and (max-width: 800px) {
+  .why {
+    grid-template-columns: repeat(1, auto);
+    grid-template-rows: repeat(1, auto);
+  }
+}
+.why2 {
+  background-color: rgb(218, 235, 241);
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 30px;
+}
+
+@media screen and (max-width: 450px) {
+  .why2 {
+    grid-template-columns: 300px;
+    grid-template-rows: repeat(3, auto);
+  }
+}
+@media screen and (min-width: 450px) and (max-width: 800px) {
+  .why2 {
+    grid-template-columns: repeat(1, auto);
+    grid-template-rows: repeat(1, auto);
+  }
+}
+.top {
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px 200px 200px 200px;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px;
+  font-size: x-large;
+}
+.top img:hover {
+  scale: 1.1;
+  transition: all 0.1s;
+}
+
+@media screen and (max-width: 450px) {
+  .top {
+    grid-template-columns: 300px;
+    grid-template-rows: repeat(7, auto);
+  }
+}
+@media screen and (min-width: 450px) and (max-width: 800px) {
+  .top {
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
+  }
+}
+.stories {
+  display: grid;
+  grid-template-columns: repeat(4, 330px);
+  padding: 30px;
+  margin: 30px;
+  background-color: black;
+  color: white;
+  width: 100%;
+  gap: 30px;
+  font-size: larger;
+  font-style: italic;
+  align-items: center;
+}
+.stories img:hover {
+  scale: 1.1;
+  transition: all 0.1s;
+}
+
+.st1 {
+  background-color: white;
+  color: #000000;
+  box-shadow: 30px solid black;
+  height: 300px;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+}
+.st1 img:hover {
+  scale: 1.1;
+  transition: all 0.1s;
+}
+
+.st2 {
+  background-color: white;
+  color: #000000;
+  box-shadow: 30px solid black;
+  height: 300px;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+}
+.st2 img:hover {
+  scale: 1.1;
+  transition: all 0.1s;
+}
+
+.st3 {
+  background-color: white;
+  color: #000000;
+  box-shadow: 30px solid black;
+  height: 300px;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+}
+.st3 img:hover {
+  scale: 1.1;
+  transition: all 0.1s;
+}
+
+.st4 {
+  background-color: white;
+  color: #000000;
+  box-shadow: 30px solid black;
+  height: 300px;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+}
+.st4 img:hover {
+  scale: 1.1;
+  transition: all 0.1s;
+}
+
+@media screen and (max-width: 450px) {
+  .stories {
+    grid-template-columns: 300px;
+    grid-template-rows: repeat(4, auto);
+  }
+}
+@media screen and (min-width: 450px) and (max-width: 800px) {
+  .stories {
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
+  }
+}
+.brands {
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px 200px 200px 200px 200px;
+  padding: 50ox;
+  margin: 40px;
+}
+.brands img:hover {
+  scale: 1.1;
+  transition: all 0.1s;
+}
+
+@media screen and (max-width: 450px) {
+  .brands {
+    grid-template-columns: 300px;
+    grid-template-rows: repeat(8, auto);
+  }
+}
+@media screen and (min-width: 450px) and (max-width: 800px) {
+  .brands {
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
+  }
+}
+.footer {
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px 200px 200px;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+  padding: 100px;
+  border: 1px solid;
+}
+.footer .ff {
+  list-style: none;
+  display: grid;
+}
+
+@media screen and (max-width: 450px) {
+  .footer {
+    grid-template-columns: 300px;
+    grid-template-rows: repeat(6, auto);
+  }
+}
+@media screen and (min-width: 450px) and (max-width: 800px) {
+  .footer {
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
+  }
+}
+.foot {
+  display: grid;
+  grid-template-columns: 700px 300px;
+  border: 1px solid;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+@media screen and (max-width: 450px) {
+  .foot {
+    grid-template-columns: 300px;
+    grid-template-rows: repeat(3, auto);
+  }
+}
+@media screen and (min-width: 450px) and (max-width: 800px) {
+  .foot {
+    grid-template-columns: repeat(1, auto);
+    grid-template-rows: repeat(1, auto);
+  }
+}
+.product {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  border: 1px solid;
+  padding: 20px;
+  justify-content: space-between;
+  margin: auto;
+}
+.product img:hover {
+  scale: 1.1;
+  transition: all 0.1s;
+}
+
+.product ul {
+  list-style: none;
+  font-size: x-large;
+}
+
+.product select {
+  font-size: x-large;
+  gap: 50px;
+}
+
+.product option {
+  font-size: larger;
+}
+
+.product button {
+  background-color: blue;
+  color: white;
+  font-size: xx-large;
+  gap: 20px;
+}
+
+.pro {
+  display: grid;
+  grid-template-columns: 200px 400px 500px;
+  padding: 30px;
+  margin: auto;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.pro img:hover {
+  scale: 1.1;
+  transition: all 0.1s;
+}
+.pro .p1 button {
+  color: white;
+  background-color: blue;
+  height: 30px;
+  width: 90px;
+  gap: 50px;
+}
+.pro .p2 button {
+  background-color: black;
+  color: white;
+  font-size: x-large;
+}
+.pro .p3 {
+  padding: 30px;
+  gap: 40px;
+}
+
+@media screen and (max-width: 450px) {
+  .pro {
+    grid-template-columns: 300px;
+    grid-template-rows: repeat(3, auto);
+  }
+}
+@media screen and (min-width: 450px) and (max-width: 800px) {
+  .pro {
+    grid-template-columns: repeat(1, auto);
+    grid-template-rows: repeat(1, auto);
+  }
+}
+.details {
+  position: sticky;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  border: 1px solid;
+  padding: 20px;
+  justify-content: space-between;
+  margin: auto;
+}
+.details img:hover {
+  scale: 1.1;
+  transition: all 0.1s;
+}
+.details ul {
+  list-style: none;
+  font-size: large;
+}
+.details select {
+  font-size: large;
+  gap: 50px;
+}
+.details option {
+  font-size: larger;
+}
+.details button {
+  background-color: blue;
+  color: white;
+  font-size: x-large;
+  gap: 20px;
+  border-radius: 50px;
+}
+
+.dete {
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.dete .dete1 {
+  display: grid;
+  grid-template-columns: 200px 300px 200px 200px;
+}
+.dete button {
+  background-color: lightgreen;
+  color: black;
+  font-size: large;
+}
+
+@media screen and (max-width: 450px) {
+  .dete {
+    grid-template-columns: 300px;
+    grid-template-rows: repeat(4, auto);
+  }
+}
+@media screen and (min-width: 450px) and (max-width: 800px) {
+  .dete {
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
+  }
+}
+.add {
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.add .add1 {
+  display: grid;
+  grid-template-columns: 200px 300px 200px 200px;
+}
+.add button {
+  background-color: lightgreen;
+  color: black;
+  font-size: large;
+}
+
+@media screen and (max-width: 450px) {
+  .add {
+    grid-template-columns: 300px;
+    grid-template-rows: repeat(4, auto);
+  }
+}
+@media screen and (min-width: 450px) and (max-width: 800px) {
+  .add {
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
+  }
+}
+.form {
+  background-color: aquamarine;
+  color: black;
+  font-size: xx-large;
+}
+.form button {
+  font-size: larger;
+  box-sizing: content-box;
+}
+
+.color {
+  gap: 20px;
+}
+.color button {
+  background-color: skyblue;
+  color: black;
+  gap: 80px;
+  padding: 10px;
+}/*# sourceMappingURL=main.css.map */

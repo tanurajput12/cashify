@@ -1,0 +1,32 @@
+.product {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  border: 1px solid;
+  padding: 20px;
+  justify-content: space-between;
+  margin: auto;
+  
+  img:hover{
+    scale: 1.1;
+  transition: all .1s;  
+   }
+   
+}
+.product ul {
+  list-style: none;
+  font-size: x-large;
+}
+.product select {
+  font-size: x-large;
+  gap: 50px;
+}
+.product option {
+  font-size: larger;
+}
+.product button {
+  background-color: blue;
+  color: white;
+  font-size: xx-large;
+  gap: 20px;
+}

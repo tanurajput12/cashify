@@ -1,0 +1,50 @@
+.nav{
+    display: flex;
+     align-items: center;
+     gap: 30px;
+     border: 1px solid;
+     padding: 20px;
+     justify-content: space-between;
+     margin: auto;
+     list-style: none;
+     ul{
+        
+        font-size: large;
+     }
+     select{
+      font-size: large;
+      gap: 50px;
+
+     }
+     option{
+      font-size: larger;
+     }
+
+     button{
+      background-color: blue;
+      color: white;
+      font-size: x-large;
+      gap: 20px;
+      border-radius: 50px;
+
+     }
+}
+// @media screen and ( max-width:750px) {
+//    .nav{
+//        height: 90px;
+//    }
+//    .nav label{
+//        display: block;
+//    }
+//    .nav ul{
+//        display: none;
+//        flex-direction: column;
+//        position: absolute;
+//        top:100px; 
+//        background-color: aqua;
+//        width: 100%;
+//        }
+//        #demo:checked~.nav ul{
+//            display: block;
+//        }
+// }
